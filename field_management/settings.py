@@ -80,8 +80,16 @@ WSGI_APPLICATION = 'field_management.wsgi.application'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
 DATABASES = {
-    "default": env.db("DATABASE_URL")
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'SWpVNbGAHbjuIgYZZEAYbWBLPskoBLYr',
+        'HOST': 'viaduct.proxy.rlwy.net',
+        'PORT': '12847',
+    }
 }
+
 
 
 # Password validation

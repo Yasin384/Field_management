@@ -1,6 +1,13 @@
 Django
+
 djangorestframework
-requests
+
 psycopg2-binary
-django-environ
+
 gunicorn
+
+dj-database-url
+
+django-environ
+
+djangorestframework-simplejwt
