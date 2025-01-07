@@ -1,5 +1,6 @@
 from django.db import models
-from django.conf import from django.conf import settings
+
+from django.conf import settings
 
 class Field(models.Model):
 
